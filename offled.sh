@@ -1,14 +1,14 @@
 #!/bin/bash
-echo 0 > /sys/devices/leds.4/leds/beaglebone\:green\:heartbeat/brightness
-echo 0 > /sys/devices/leds.4/leds/beaglebone\:green\:usr2/brightness
-echo 0 > /sys/devices/leds.4/leds/beaglebone\:green\:usr3/brightness
-echo 0 > /sys/devices/leds.4/leds/beaglebone\:green\:mmc0/brightness
+echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:heartbeat/brightness
+echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:usr2/brightness
+echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:usr3/brightness
+echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:mmc0/brightness
 exit 0
 
 
-#3.12.1-1-ARCH #1 SMP Wed Nov 20 20:27:04 MST 2013 armv7l GNU/Linux
+#Linux alarm 3.14.4-1-ARCH #1 SMP Sun May 18 18:32:31 MDT 2014 armv7l GNU/Linux
 #following onbord Led directory
-#/sys/devices/leds.4/leds
+#/sys/devices/leds.7/leds
 #	|
 #	L	beaglebone:green:heartbeat  
 #	L	beaglebone:green:mmc0
