@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:heartbeat/brightness
+echo 1 > /sys/devices/leds.7/leds/beaglebone\:green\:heartbeat/brightness
 echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:usr2/brightness
 echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:usr3/brightness
 echo 0 > /sys/devices/leds.7/leds/beaglebone\:green\:mmc0/brightness
@@ -22,6 +22,6 @@ exit 0
 #Example
 #cat /sys/devices/leds.4/leds/beaglebone\:green\:heartbeat/trigger
 #[none] rc-feedback nand-disk mmc0 mmc1 timer oneshot heartbeat backlight gpio cpu0 default-on transient flash torch
-#echo heartbeat > /sys/devices/leds.4/leds/beaglebone\:green\:heartbeat/trigger
+#echo heartbeat > /sys/devices/leds.7/leds/beaglebone\:green\:heartbeat/trigger
 #Result is blinking positon the heartbeat.
 #brightness is 0 or 1.
